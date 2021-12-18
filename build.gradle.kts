@@ -64,8 +64,8 @@ gradlePlugin {
 
 pluginBundle {
     website = "https://github.com/mbogner/gradle-status-plugin"
-    vcsUrl = "git@github.com:mbogner/gradle-status-plugin.git"
-    description = "Plugin to gather metadata about your project."
+    vcsUrl = "https://github.com/mbogner/gradle-status-plugin.git"
+    description = "Plugin to gather metadata about your project and send it to a customizable server."
 
     (plugins) {
         "gradleStatusPlugin" {
