@@ -71,7 +71,7 @@ pluginBundle {
         "gradleStatusPlugin" {
             // id is captured from java-gradle-plugin configuration
             displayName = "Gradle Status Plugin"
-            tags = listOf()
+            tags = listOf("metadata", "libraries")
             version = project.version.toString()
         }
     }
